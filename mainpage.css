@@ -1,0 +1,558 @@
+body{
+    margin: auto;
+    background-color: #abf3d9;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    position: fixed;
+    background-color: #2c4152;
+}
+.logo>img{
+    width: 100px;
+    height:90px;
+    margin-left: 10%;
+    float: left;
+}
+
+.textelements>ul>li{
+    text-align: center;
+    list-style: none;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.textelements>ul>li:hover{
+    transform: scale(1.1);
+}
+.textelements>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+.searchcontainer{
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    border-radius: 25px;
+    background-color:white;
+}
+.searchbar>input{
+    float: left;
+    padding-left: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    background-color:transparent;
+    border:0;
+    outline: none;
+
+}
+.searchbar>button>span{
+    margin-right: 20%;
+}
+.iconsearch>button{
+    float: left;
+    margin-top: 5%;
+    border: 0px;
+    background-color:#f1f1f136;
+    cursor: pointer;
+}
+.iconsearch>button:hover{
+    transform: scale(1.1);
+}
+.iconsearch>button>svg{
+    float: left;
+    margin-top: 10%;
+    margin-right: 8%;
+
+}
+.hearticon{
+    float: left;
+    width:40px ;
+    height: 40px;
+    background-color: black;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 20px;
+}
+.hearticon:hover{
+    transform: scale(1.1);
+}
+.hearticon>svg{
+    display: inline;
+    color: rgb(255, 255, 255);
+    margin-top: 29%;
+    margin-left: 23%;
+    width: 20px;
+    height: 20px;
+}
+.login>ul>li>button{
+    background-color: rgb(3, 3, 36);
+    border-radius: 10px;
+}
+.login>ul>li>button:hover{
+    transform: scale(1.1);
+}
+.login>ul>li{
+    float: left;
+    list-style: none;
+    margin-left: 1%;
+    margin-top: 2.5%;
+    color: rgb(255, 255, 255);
+}
+.luxajio{
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(3, 3, 36);
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+    border-radius: 10%;
+}
+.luxajio>a{
+    color: aliceblue;
+    text-decoration: none;
+    float: left;
+    margin-top: 7%;
+    margin-left: 20%;
+    font-size: 20px;
+}
+.luxajio:hover{
+    transform: scale(1.1);
+}
+#zambooffers{
+    width: 80%;
+    height: 500px;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#brands{
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+    background-size: cover;
+    display: flex;
+    background-position: center;
+}
+.item>img{
+    width:100%;
+    height: 500px !important;
+}
+.carousel-caption{
+    margin-bottom: 12%;
+    font-size: 30px;
+    font-family:'Koulen', cursive;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.carousel-caption:hover{
+    transform: scale(1.1);
+}
+.brand1{
+    width:30%;
+    height:400px;
+    background-image:url(https://pngimg.com/uploads/nike/nike_PNG19.png);
+    background-repeat: no-repeat;
+    background-position: 5%; 
+    background-color: rgb(187, 240, 240);
+    float: left;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.brand1:hover{
+   transform: scale(1.1);
+}
+.brand1>h3{
+    color: rgba(0, 0, 0, 0.692);
+    text-align: center;
+    margin-top: 70%;
+    font-size: 50px;
+}
+.brand2{
+    width:30%;
+    height:400px;
+    background-image:url(https://corunco.com/wp-content/uploads/2016/10/adidas-black-vector-logo-400x400.png);
+    background-repeat: no-repeat;
+    background-position: 5%; 
+    background-color: rgb(255, 255, 255);
+    margin-left: 3%;
+    float: left;
+    margin-top: 1%;
+}
+.brand2:hover{
+   transform: scale(1.1);
+}
+.brand2>h3{
+    color: rgba(0, 0, 0, 0.692);
+    text-align: center;
+    margin-top: 70%;
+    font-size: 50px;
+}
+.brand3{
+    width:30%;
+    height:400px;
+    background-image:url(http://assets.stickpng.com/images/5a7f5f47abc3d121aba71181.png);
+    background-repeat: no-repeat;
+    background-position: 5%; 
+    background-color: rgb(230, 167, 204);
+    margin-left: 3%;
+    float: left;
+    margin-top: 1%;
+}
+.brand3:hover{
+   transform: scale(1.1);
+}
+.brand3>h3{
+    color: rgba(0, 0, 0, 0.692);
+    text-align: center;
+    margin-top: 70%;
+    font-size: 50px;
+}
+#brandoffers{
+    width: 100%;
+    background-color: aquamarine;
+    float: left;
+    margin-top: 1%;
+}
+.shirts{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0981/8178/products/Author-Classic-Blue-OX-Sitting-Square_300x.jpg?v=1631296265);
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    float: left;
+    margin-left: 4%;
+}
+.shirts:hover{
+    transform: scale(1.1);
+}
+.insidecontaner{
+    width: 250px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    float: left;
+    margin-top: 40%;
+    margin-left: 6%;
+}
+.insidecontaner:hover{
+    transform: scale(1.1);
+}
+.insidecontaner>h3{
+    text-align: center;
+}
+.insidecontaner>p{
+    text-align: center;
+}
+.T-shirts{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://cpimg.tistatic.com/06933560/b/4/Mens-Regular-Fit-Sky-Colour-Polo-Neck-Solid-T-Shirt-w300.jpg);
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    float: left;
+    margin-left: 4%;
+}
+.T-shirts:hover{
+    transform: scale(1.1);
+}
+.insidecontaner{
+    width: 250px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    float: left;
+    margin-top: 40%;
+    margin-left: 6%;
+}
+.insidecontaner:hover{
+    transform: scale(1.1);
+}
+.insidecontaner>h3{
+    text-align: center;
+}
+.insidecontaner>p{
+    text-align: center;
+}
+.pants{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0082/6363/0953/products/WhatsAppImage2021-01-25at1.19.44PM_300x300.jpg?v=1611562835);
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    float: left;
+    margin-left: 4%;
+}
+.pants:hover{
+    transform: scale(1.1);
+}
+.insidecontaner{
+    width: 250px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    float: left;
+    margin-top: 40%;
+    margin-left: 6%;
+}
+.insidecontaner:hover{
+    transform: scale(1.1);
+}
+.insidecontaner>h3{
+    text-align: center;
+}
+.insidecontaner>p{
+    text-align: center;
+}
+.jackets{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://m.media-amazon.com/images/S/aplus-media/sc/23468ec9-9196-4cb9-ae00-1326e8767922.__CR0,0,1080,1080_PT0_SX300_V1___.jpg);
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    float: left;
+    margin-left: 4%;
+}
+.jackets:hover{
+    transform: scale(1.1);
+}
+.insidecontaner{
+    width: 250px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    float: left;
+    margin-top: 40%;
+    margin-left: 6%;
+}
+.insidecontaner:hover{
+    transform: scale(1.1);
+}
+.insidecontaner>h3{
+    text-align: center;
+}
+.insidecontaner>p{
+    text-align: center;
+}
+.roundneck{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://cpimg.tistatic.com/06946855/b/4/Force-Nxt-Round-Neck-T-Shirt-w300.jpg);
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    float: left;
+    margin-left: 4%;
+}
+.roundneck:hover{
+    transform: scale(1.1);
+}
+.insidecontaner{
+    width: 250px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    float: left;
+    margin-top: 40%;
+    margin-left: 6%;
+}
+.insidecontaner:hover{
+    transform: scale(1.1);
+}
+.insidecontaner>h3{
+    text-align: center;
+}
+.insidecontaner>p{
+    text-align: center;
+}
+.tracks{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://contents.mediadecathlon.com/p1724744/a8373278310c30c7ce0af8f5b36843c1/p1724744.jpg?format=auto&quality=70&f=300x0);
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    float: left;
+    margin-left: 4%;
+}
+.tracks:hover{
+    transform: scale(1.1);
+}
+.insidecontaner{
+    width: 250px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    float: left;
+    margin-top: 40%;
+    margin-left: 6%;
+}
+.insidecontaner:hover{
+    transform: scale(1.1);
+}
+.insidecontaner>h3{
+    text-align: center;
+}
+.insidecontaner>p{
+    text-align: center;
+}
+.shorts{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0564/5405/4081/collections/men-shorts_300x300.jpg?v=1628162428);
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    float: left;
+    margin-left: 4%;
+}
+.shorts:hover{
+    transform: scale(1.1);
+}
+.insidecontaner{
+    width: 250px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    float: left;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+.insidecontaner:hover{
+    transform: scale(1.1);
+}
+.insidecontaner>h3{
+    text-align: center;
+}
+.insidecontaner>p{
+    text-align: center;
+}
+.underware{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://rukminim1.flixcart.com/image/300/300/kovsvbk0/trunk/0/u/t/2xl-xytrnk2pckn96-xyxx-original-imag38zqjvkhuczb.jpeg?q=90);
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    float: left;
+    margin-left: 4%;
+}
+.underware:hover{
+    transform: scale(1.1);
+}
+.insidecontaner{
+    width: 250px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    float: left;
+    margin-top: 40%;
+    margin-left: 6%;
+}
+.insidecontaner:hover{
+    transform: scale(1.1);
+}
+.insidecontaner>h3{
+    text-align: center;
+}
+.insidecontaner>p{
+    text-align: center;
+}
+.trust{
+    width: 100%;
+    background-color: #2c4152;
+    display: inline-block;
+}
+#easyreturn{
+    margin-top: 1%;
+    float: left;
+    margin-left: 15%;
+}
+#easyreturn:hover{
+    transform: scale(1.1);
+}
+#easyreturn>svg{
+    width: 50px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 25%;
+}
+.text1{
+    font-size: 30px;
+    margin-left: 4%;
+    color: azure;
+    margin-top: 0%;
+    margin-left: 20%;
+
+
+}
+#handpick{
+    margin-top: 3%;
+    float: left;
+    margin-left: 15%;
+}
+#handpick:hover{
+    transform: scale(1.1);
+}
+#handpick>img{
+    margin-left: 20%;
+}
+#quality{
+    margin-top: 3%;
+    float: left;
+    margin-left: 15%;
+}
+#quality:hover{
+    transform: scale(1.1);
+}
+#quality>img{
+    margin-left: 20%
+}
+footer{
+    width: 100%;
+    background-color: #2c4152;
+    border: 2px solid black;
+    display:inline-block
+}
+.feat-items{
+    display: inline-block;
+    margin-left: 30%;
+}
+.items-ajio>a{
+    font-size: 15px;
+    list-style: none;
+    color: #edf4f1;
+    vertical-align: baseline;
+}
+.heading1{
+    color: white;
+    padding: 2%;
+
+}
+.heading1:hover{
+    transform: scale(1.1);
+}
+.helpline-index{
+    display: inline-block;
+    margin-left: 30%;
+}
+.helpline>a{
+    font-size: 15px;
+    list-style: none;
+    color: #edf4f1;
+    vertical-align: baseline;
+}
+.heading2{
+      color: white;
+      padding: 2%;
+
+}
+.heading2:hover{
+    transform: scale(1.1);
+}
